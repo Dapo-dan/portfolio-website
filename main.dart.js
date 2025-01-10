@@ -79506,8 +79506,8 @@ $.arL=function(){var s=t.N
 return A.a([A.aD(["title","Backend Engineering","date","Nov 2023 - Present","company","AltSchool Africa"],s,s),A.aD(["title","The Complete Dart Development Guide","date","January 2025","company","Udemy"],s,s),A.aD(["title","Electronics and Electrical Engineering","date","May 2017 - Jan 2022","company","Obafemi Awolowo University"],s,s)],A.ac("v<aE<r,r>>"))}()
 $.akP=function(){var s="assets/icons/dart.png",r=t.N,q=t.z
 return A.a([A.aD(["percentage",0.9,"title","Flutter","image","assets/icons/flutter.png"],r,q),A.aD(["percentage",0.8,"title","Dart","image",s],r,q),A.aD(["percentage",0.6,"title","Firebase","image","assets/icons/firebase.png"],r,q),A.aD(["percentage",0.9,"title","Git","image","assets/icons/git.png"],r,q),A.aD(["percentage",0.5,"title","Bloc","image","assets/icons/bloc.png"],r,q),A.aD(["percentage",0.93,"title","Getx","image",s],r,q)],t.gG)}()
-$.asj=function(){var s="Mobile Developer",r=t.N
-return A.a([A.aD(["title","Mobile Engineer","company","MoniMoore | Lagos, Nigeria","date","Mar 2024 - Present"],r,r),A.aD(["title",s,"company","Kunda Kids | London, UK","date","Nov 2023 - Present"],r,r),A.aD(["title","Mobile  Developer","company","Exolve Technologies Limited | Lagos, Nigeria","date","Aug 2023 - Dec 2023"],r,r),A.aD(["title",s,"company","Dufuna | Lagos, Nigeria","date","Feb 2022 - Nov 2023"],r,r),A.aD(["title","Flutter Developer","company","TaskHaven | Lagos, Nigeria","date","May 2022 - Sep 2023"],r,r)],A.ac("v<aE<r,r>>"))}()
+$.asj=function(){var s="Flutter Developer",r=t.N
+return A.a([A.aD(["title","Mobile Engineer","company","MoniMoore | Lagos, Nigeria","date","Mar 2024 - Present"],r,r),A.aD(["title",s,"company","Kunda Kids | London, UK","date","Nov 2023 - Present"],r,r),A.aD(["title","Mobile  Developer","company","Exolve Technologies Limited | Lagos, Nigeria","date","Aug 2023 - Dec 2023"],r,r),A.aD(["title","Mobile Developer","company","Dufuna | Lagos, Nigeria","date","Feb 2022 - Nov 2023"],r,r),A.aD(["title",s,"company","TaskHaven | Lagos, Nigeria","date","May 2022 - Sep 2023"],r,r)],A.ac("v<aE<r,r>>"))}()
 $.azb=A.w(t.S,A.ac("aIM"))
 $.aob=null
 $.ao9=null
