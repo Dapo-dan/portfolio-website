@@ -54,12 +54,12 @@ const RESOURCES = {"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2e
 "canvaskit/skwasm.wasm": "9f0c0c02b82a910d12ce0543ec130e60",
 "canvaskit/canvaskit.wasm": "1f237a213d7370cf95f443d896176460",
 "canvaskit/canvaskit.js": "66177750aff65a66cb07bb44b8c6422b",
-"index.html": "a325783b264ba5fa2ff7065581d38faf",
-"/": "a325783b264ba5fa2ff7065581d38faf",
+"index.html": "06c1d3d81a8b48d11a79f5220c1fa9f3",
+"/": "06c1d3d81a8b48d11a79f5220c1fa9f3",
 "flutter.js": "f393d3c16b631f36852323de8e583132",
 "favicon.png": "a6383d97e0e5d31f45851f43eb210a56",
-"flutter_bootstrap.js": "1c59359190719260966a93367fddff14",
-"main.dart.js": "02f4f2084fa733130ac031e9e9c353f9"};
+"flutter_bootstrap.js": "91fd08468ad25824458455ab87f97e68",
+"main.dart.js": "8f074d39488c321ac6b6c5e78b86400a"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
