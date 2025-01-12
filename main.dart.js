@@ -80098,7 +80098,7 @@ $.hC=function(){var s=t.n
 return A.a([A.a([0.41233895,0.35762064,0.18051042],s),A.a([0.2126,0.7152,0.0722],s),A.a([0.01932141,0.11916382,0.95034478],s)],t.zg)}()
 $.pg=A.a([95.047,100,108.883],t.n)
 $.ase=function(){var s=t.N
-return A.a([A.aC(["title","Backend Engineering","date","Nov 2023 - Present","company","AltSchool Africa"],s,s),A.aC(["title","The Complete Dart Development Guide","date","January 2025","company","Udemy"],s,s),A.aC(["title","Electronics and Electrical Engineering","date","May 2017 - Jan 2022","company","Obafemi Awolowo University"],s,s)],A.ab("x<aD<t,t>>"))}()
+return A.a([A.aC(["title","Backend Engineering","date","Nov 2024 - Present","company","AltSchool Africa"],s,s),A.aC(["title","The Complete Dart Development Guide","date","January 2025","company","Udemy"],s,s),A.aC(["title","Electronics and Electrical Engineering","date","May 2017 - Jan 2022","company","Obafemi Awolowo University"],s,s)],A.ab("x<aD<t,t>>"))}()
 $.ali=function(){var s="assets/icons/dart.png",r=t.N,q=t.z
 return A.a([A.aC(["percentage",0.9,"title","Flutter","image","assets/icons/flutter.png"],r,q),A.aC(["percentage",0.8,"title","Dart","image",s],r,q),A.aC(["percentage",0.6,"title","Firebase","image","assets/icons/firebase.png"],r,q),A.aC(["percentage",0.5,"title","Bloc","image","assets/icons/bloc.png"],r,q),A.aC(["percentage",0.9,"title","Git","image","assets/icons/git.png"],r,q),A.aC(["percentage",0.93,"title","Getx","image",s],r,q)],t.gG)}()
 $.asN=function(){var s="Mobile Developer",r=t.N
