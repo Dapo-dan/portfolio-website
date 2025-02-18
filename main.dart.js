@@ -76664,7 +76664,7 @@ if(a==="Skills")A.e9($.qs())
 if(a==="Contact")A.e9($.qp())},
 $S:38}
 A.qw.prototype={
-M(a){var s,r,q,p,o,n,m,l,k,j,i=null,h="I'm Oladapo Daniel Olatubosun, a Flutter Mobile Developer with over 3 years of experience crafting iOS and Android applications. I've worked on impactful projects across industries, including MoniMoore, a financial app empowering users to manage their finances efficiently, and Kunda Kids, a gamified children's learning app.\n\nSkilled in Flutter/Dart, Firebase, and state management architectures (BLoC, GetX, Provider), I deliver robust, scalable apps with clean architecture and exceptional user experiences. From GPS tracking and real-time video calls to secure payment integrations, I specialize in turning ideas into seamless, user-focused solutions."
+M(a){var s,r,q,p,o,n,m,l,k,j,i=null,h="I'm Oladapo Daniel Olatubosun, a Flutter Mobile Developer with over 4 years of experience crafting iOS and Android applications. I've worked on impactful projects across industries, including MoniMoore, a financial app empowering users to manage their finances efficiently, and Kunda Kids, a gamified children's learning app.\n\nSkilled in Flutter/Dart, Firebase, and state management architectures (BLoC, GetX, Provider), I deliver robust, scalable apps with clean architecture and exceptional user experiences. From GPS tracking and real-time video calls to secure payment integrations, I specialize in turning ideas into seamless, user-focused solutions."
 $.bt()
 s=$.q().xr
 s=$.k.p$.x.h(0,s)
@@ -77307,7 +77307,7 @@ r=$.bs().d
 if(r==null){r=self.window.devicePixelRatio
 if(r===0)r=1}r=s.N(0,r).a*0.05
 s=this.c
-return A.cU(q,A.dZ(A.a([new A.wi(s,"3+","Years of","Experience",q),B.Oh,new A.wi(s,"6+","Projects","Completed",q)],t.p),B.y,B.af,B.z),B.q,q,q,q,q,q,new A.b3(r,0,r,0),q,q,q,q)}}
+return A.cU(q,A.dZ(A.a([new A.wi(s,"4","Years of","Experience",q),B.Oh,new A.wi(s,"6+","Projects","Completed",q)],t.p),B.y,B.af,B.z),B.q,q,q,q,q,q,new A.b3(r,0,r,0),q,q,q,q)}}
 A.Nq.prototype={
 M(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=null,c=A.cd(a,d,t.w).w.a,b=A.bA(A.apO(new A.adu()),50,d)
 $.bt()
@@ -77698,7 +77698,7 @@ o=t.p
 p=A.dZ(A.a([A.cl("WELCOME TO MY PORTFOLIO!",g,g,$.nu().a8y(2),g,g),B.fD,new A.x_(A.ot("assets/icons/hi.gif",g,g,20),B.ba,B.Eo,B.h,g)],o),B.y,p,B.z)
 n=A.cl("Oladapo",g,g,$.aB9().l3(30),g,g)
 m=A.cl("Olatubosun",g,g,$.anY().l3(40),g,g)
-l=A.m6(B.bj,this.c,"Flutter Developer")
+l=A.m6(B.bj,this.c,"Mobile Engineer")
 k=$.q().xr
 k=$.k.p$.x.h(0,k)
 k.toString
