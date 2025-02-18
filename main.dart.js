@@ -77307,7 +77307,7 @@ r=$.bs().d
 if(r==null){r=self.window.devicePixelRatio
 if(r===0)r=1}r=s.N(0,r).a*0.05
 s=this.c
-return A.cU(q,A.dZ(A.a([new A.wi(s,"4","Years of","Experience",q),B.Oh,new A.wi(s,"6+","Projects","Completed",q)],t.p),B.y,B.af,B.z),B.q,q,q,q,q,q,new A.b3(r,0,r,0),q,q,q,q)}}
+return A.cU(q,A.dZ(A.a([new A.wi(s,"4+","Years of","Experience",q),B.Oh,new A.wi(s,"6+","Projects","Completed",q)],t.p),B.y,B.af,B.z),B.q,q,q,q,q,q,new A.b3(r,0,r,0),q,q,q,q)}}
 A.Nq.prototype={
 M(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=null,c=A.cd(a,d,t.w).w.a,b=A.bA(A.apO(new A.adu()),50,d)
 $.bt()
