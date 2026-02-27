@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:porfolio/constants/colors.dart';
 import 'package:porfolio/constants/styles.dart';
+import 'package:porfolio/design_system/app_spacing.dart';
 
 class AppButton extends StatelessWidget {
   const AppButton({
@@ -28,32 +29,42 @@ class AppButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    final isEnabled = allowSubmit && !isLoading;
+
     return InkWell(
-      onTap: allowSubmit ? onTap : null,
+      onTap: isEnabled ? onTap : null,
       child: Container(
         decoration: BoxDecoration(
           color: buttonColor,
-          borderRadius: BorderRadius.circular(borderRadius ?? 4),
+          borderRadius: BorderRadius.circular(borderRadius ?? 12),
           border: Border.all(
             color: borderColor ?? Colors.transparent,
           ),
           gradient: LinearGradient(
             colors: [
               studio,
-              studio.withOpacity(0.5),
+              studio.withValues(alpha: 0.5),
             ],
           ),
+          boxShadow: [
+            BoxShadow(
+              color: scheme.primary.withValues(alpha: isEnabled ? 0.25 : 0.08),
+              blurRadius: 18,
+              offset: const Offset(0, 10),
+            ),
+          ],
         ),
         child: Padding(
           padding: EdgeInsets.symmetric(
-            horizontal: hPadding ?? 30.0,
-            vertical: vPadding ?? 13.0,
+            horizontal: hPadding ?? AppSpacing.x8,
+            vertical: vPadding ?? AppSpacing.x3,
           ),
           child: Center(
             child: Text(
-              title,
+              isLoading ? (loadingText ?? title) : title,
               style: TextStyles.style14extrabold.copyWith(
-                color: textColor ?? (allowSubmit ? white : black),
+                color: textColor ?? (isEnabled ? white : scheme.onSurface),
               ),
             ),
           ),

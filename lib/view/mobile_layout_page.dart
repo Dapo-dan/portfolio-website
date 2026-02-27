@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:porfolio/constants/const.dart';
 import 'package:porfolio/view/sections/contact_me_section.dart';
-import 'package:porfolio/widgets/navbar.dart';
 import 'package:porfolio/view/sections/about_section.dart';
 import 'package:porfolio/widgets/header_text_widget.dart';
 import 'package:porfolio/widgets/rotating_image_widget.dart';
@@ -20,18 +19,6 @@ class MobileView extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         children: [
-          SizedBox(
-            height: 50,
-            child: ResponsiveNavBar(
-              onItemSelected: (String item) {
-                if (item == 'About') scrollToSection(aboutKey);
-                if (item == 'Projects') scrollToSection(projectsKey);
-                if (item == 'Resume') scrollToSection(resumeKey);
-                if (item == 'Skills') scrollToSection(skillsKey);
-                if (item == 'Contact') scrollToSection(contactKey);
-              },
-            ),
-          ),
           const RotatingImageContainer(),
           verticalSpace(0.05),
           HeaderTextWidget(size: size),
@@ -40,8 +27,11 @@ class MobileView extends StatelessWidget {
           verticalSpace(0.06),
           StatsSection(size: size),
           verticalSpace(0.08),
-          AboutSection(key: aboutKey, size: size, imageHeight: size.height * 0.3),
-           ProjectsSection(key: projectsKey,),
+          AboutSection(
+              key: aboutKey, size: size, imageHeight: size.height * 0.3),
+          ProjectsSection(
+            key: projectsKey,
+          ),
           verticalSpace(0.05),
           ResumeSection(key: resumeKey, size: size),
           verticalSpace(0.05),
@@ -50,7 +40,7 @@ class MobileView extends StatelessWidget {
             size: size,
           ),
           verticalSpace(0.05),
-           ContactMeSection(
+          ContactMeSection(
             key: contactKey,
             size: size,
           ),

@@ -3,6 +3,7 @@ import 'package:porfolio/constants/app_strings.dart';
 import 'package:porfolio/constants/colors.dart';
 import 'package:porfolio/constants/const.dart';
 import 'package:porfolio/constants/styles.dart';
+import 'package:porfolio/widgets/app_section_container.dart';
 import 'package:porfolio/widgets/drawer_image.dart';
 import 'package:porfolio/widgets/gradient_text.dart';
 
@@ -15,10 +16,8 @@ class AboutSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: ebony,
-      padding: EdgeInsets.symmetric(
-          vertical: width() * 0.05, horizontal: width() * 0.05),
+    return AppSectionContainer(
+      backgroundColor: ebony,
       child: Column(
         children: [
           GradientTextWidget(size: size, text1: "About Me"),

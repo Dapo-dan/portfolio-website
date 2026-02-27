@@ -5,6 +5,7 @@ import 'package:porfolio/data/education.dart';
 import 'package:porfolio/data/resume_list.dart';
 import 'package:porfolio/widgets/gradient_text.dart';
 import 'package:porfolio/widgets/resume_card.dart';
+import 'package:porfolio/widgets/app_section_container.dart';
 
 class ResumeSection extends StatelessWidget {
   final Size size;
@@ -16,13 +17,8 @@ class ResumeSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      decoration: const BoxDecoration(
-        color: ebony,
-      ),
-      width: width(),
-      padding: EdgeInsets.symmetric(
-          vertical: width() * 0.05, horizontal: width() * 0.05),
+    return AppSectionContainer(
+      backgroundColor: ebony,
       child: width() > 600
           ? Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
