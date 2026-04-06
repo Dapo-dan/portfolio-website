@@ -19,15 +19,20 @@ class AppSpacing {
 }
 
 class AppGaps {
-  static const Widget x1 = SizedBox(height: AppSpacing.x1, width: AppSpacing.x1);
-  static const Widget x2 = SizedBox(height: AppSpacing.x2, width: AppSpacing.x2);
-  static const Widget x3 = SizedBox(height: AppSpacing.x3, width: AppSpacing.x3);
-  static const Widget x4 = SizedBox(height: AppSpacing.x4, width: AppSpacing.x4);
-  static const Widget x6 = SizedBox(height: AppSpacing.x6, width: AppSpacing.x6);
-  static const Widget x8 = SizedBox(height: AppSpacing.x8, width: AppSpacing.x8);
+  static const Widget x1 =
+      SizedBox(height: AppSpacing.x1, width: AppSpacing.x1);
+  static const Widget x2 =
+      SizedBox(height: AppSpacing.x2, width: AppSpacing.x2);
+  static const Widget x3 =
+      SizedBox(height: AppSpacing.x3, width: AppSpacing.x3);
+  static const Widget x4 =
+      SizedBox(height: AppSpacing.x4, width: AppSpacing.x4);
+  static const Widget x6 =
+      SizedBox(height: AppSpacing.x6, width: AppSpacing.x6);
+  static const Widget x8 =
+      SizedBox(height: AppSpacing.x8, width: AppSpacing.x8);
   static const Widget x12 =
       SizedBox(height: AppSpacing.x12, width: AppSpacing.x12);
   static const Widget x16 =
       SizedBox(height: AppSpacing.x16, width: AppSpacing.x16);
 }
-

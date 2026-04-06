@@ -33,7 +33,8 @@ class AppTheme {
       snackBarTheme: SnackBarThemeData(
         behavior: SnackBarBehavior.floating,
         backgroundColor: scheme.surfaceContainerHighest,
-        contentTextStyle: textTheme.bodyMedium?.copyWith(color: scheme.onSurface),
+        contentTextStyle:
+            textTheme.bodyMedium?.copyWith(color: scheme.onSurface),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
       dividerTheme: DividerThemeData(
@@ -68,4 +69,3 @@ class AppTheme {
     );
   }
 }
-

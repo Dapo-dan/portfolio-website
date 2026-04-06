@@ -122,7 +122,8 @@ class _HomePageState extends State<HomePage> {
               final content = SingleChildScrollView(
                 controller: _scrollController,
                 child: switch (device) {
-                  DeviceSize.largeDesktop || DeviceSize.desktop =>
+                  DeviceSize.largeDesktop ||
+                  DeviceSize.desktop =>
                     const DesktopView(),
                   DeviceSize.tablet => const TabletView(),
                   DeviceSize.mobile => const MobileView(),

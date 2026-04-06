@@ -1,6 +1,8 @@
 class AppString {
   static const aboutMe =
-      '''I'm Oladapo Daniel Olatubosun, a Flutter Mobile Developer with over 4 years of experience crafting iOS and Android applications. I've worked on impactful projects across industries, including MoniMoore, a financial app empowering users to manage their finances efficiently, and Kunda Kids, a gamified children's learning app.
+      '''Mobile Engineer with 5+ years of experience delivering enterprise and startup mobile solutions across fintech, edtech, health tech, mobility platforms, and digital commerce.
 
-Skilled in Flutter/Dart, Firebase, and state management architectures (BLoC, GetX, Provider), I deliver robust, scalable apps with clean architecture and exceptional user experiences. From GPS tracking and real-time video calls to secure payment integrations, I specialize in turning ideas into seamless, user-focused solutions.''';
+I specialize in Flutter/Dart cross-platform development, AI-powered mobile applications, and production-grade architectures (Clean Architecture, Riverpod, Bloc, GetX, MVC, MVVM). I have hands-on experience building cross-border remittance systems, wallet infrastructure, digital lending products, and health data platforms serving international markets.
+
+My work includes secure payment integrations, KYC verification flows, open banking APIs, and real-time transaction systems, while collaborating effectively across distributed product and engineering teams.''';
 }

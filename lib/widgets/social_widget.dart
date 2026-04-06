@@ -36,8 +36,7 @@ class SocialWidget extends StatelessWidget {
             child: IconButton(
               hoverColor: scheme.surfaceContainerHighest,
               onPressed: () async {
-                const url =
-                    'https://www.linkedin.com/in/oladapodanielolatubosun/';
+                const url = 'http://www.linkedin.com/in/o-d-olatubosun';
                 await _launch(url);
               },
               icon: const FaIcon(

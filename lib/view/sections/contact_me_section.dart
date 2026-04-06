@@ -90,14 +90,14 @@ class _ContactMeSectionState extends State<ContactMeSection> {
                   colorFilter: const ColorFilter.mode(white, BlendMode.srcIn),
                 ),
                 Text(
-                  "+(234) 702 5214 514",
+                  "+234-7025214514",
                   style: TextStyles.style24extrabold,
                   textAlign: TextAlign.center,
                 ),
                 InkWell(
                   onTap: () {
                     Clipboard.setData(
-                      const ClipboardData(text: "+(234) 702 5214 514"),
+                      const ClipboardData(text: "+234-7025214514"),
                     );
                   },
                   child: SvgPicture.asset(
@@ -109,7 +109,7 @@ class _ContactMeSectionState extends State<ContactMeSection> {
             ),
             verticalSpace(0.1),
             Text(
-              "© 2025 All Rights Reserved by Oladapo Olatubosun",
+              "© 2026 All Rights Reserved by Oladapo D. Olatubosun",
               style: TextStyles.style16regular,
               textAlign: TextAlign.center,
             ),

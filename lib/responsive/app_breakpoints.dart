@@ -40,4 +40,3 @@ extension ResponsiveContext on BuildContext {
   bool get isDesktop => deviceSize == DeviceSize.desktop;
   bool get isLargeDesktop => deviceSize == DeviceSize.largeDesktop;
 }
-

@@ -16,14 +16,14 @@ class StatsSection extends StatelessWidget {
         children: [
           CountWidget(
             size: size,
-            text1: "4+",
+            text1: "5+",
             text2: "Years of",
             text3: "Experience",
           ),
           const SizedBox(width: 50),
           CountWidget(
             size: size,
-            text1: "6+",
+            text1: "7+",
             text2: "Projects",
             text3: "Completed",
           ),

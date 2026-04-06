@@ -114,7 +114,8 @@ class _ProjectCardState extends State<ProjectCard> {
                               ),
                             ),
                             TextButton(
-                              onPressed: () => _launch(widget.project.androidUrl),
+                              onPressed: () =>
+                                  _launch(widget.project.androidUrl),
                               child: Text(
                                 "Android",
                                 style: TextStyles.style12extrabold.copyWith(

@@ -56,11 +56,11 @@ class AppSectionContainer extends StatelessWidget {
       color: backgroundColor,
       child: Center(
         child: ConstrainedBox(
-          constraints: BoxConstraints(maxWidth: maxWidth ?? _defaultMaxWidth(context)),
+          constraints:
+              BoxConstraints(maxWidth: maxWidth ?? _defaultMaxWidth(context)),
           child: section,
         ),
       ),
     );
   }
 }
-

@@ -67,4 +67,3 @@ class AppColorSchemes {
     outline: AppColors.neutral[300]!,
   );
 }
-
