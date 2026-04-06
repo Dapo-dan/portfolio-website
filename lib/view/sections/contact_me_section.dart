@@ -4,6 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:porfolio/constants/colors.dart';
 import 'package:porfolio/constants/const.dart';
 import 'package:porfolio/constants/styles.dart';
+import 'package:porfolio/widgets/app_section_container.dart';
 import 'package:porfolio/widgets/gradient_text.dart';
 
 class ContactMeSection extends StatefulWidget {
@@ -29,13 +30,11 @@ class _ContactMeSectionState extends State<ContactMeSection> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-        decoration: const BoxDecoration(
-          color: ebony,
-        ),
-        width: width(),
+    return AppSectionContainer(
+        backgroundColor: ebony,
         padding: EdgeInsets.symmetric(
-          horizontal: width() > 600 ? width() * 0.12 : width() * 0.05,
+          horizontal: width() > 600 ? width() * 0.06 : 16,
+          vertical: 48,
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -51,78 +50,66 @@ class _ContactMeSectionState extends State<ContactMeSection> {
               textAlign: TextAlign.center,
             ),
             verticalSpaceMedium(),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+            Wrap(
+              alignment: WrapAlignment.center,
+              crossAxisAlignment: WrapCrossAlignment.center,
+              spacing: 16,
+              runSpacing: 12,
               children: [
                 SvgPicture.asset(
                   "assets/icons/chat.svg",
-                  colorFilter: const ColorFilter.mode(
-                    white,
-                    BlendMode.srcIn,
-                  ),
+                  colorFilter: const ColorFilter.mode(white, BlendMode.srcIn),
                 ),
-                horizontalSpaceMedium(),
                 Text(
                   "odapo138@gmail.com",
                   style: TextStyles.style24extrabold,
+                  textAlign: TextAlign.center,
                 ),
-                horizontalSpaceMedium(),
                 InkWell(
                   onTap: () {
                     Clipboard.setData(
-                      const ClipboardData(
-                        text: "odapo138@gmail.com",
-                      ),
+                      const ClipboardData(text: "odapo138@gmail.com"),
                     );
                   },
                   child: SvgPicture.asset(
                     "assets/icons/copy.svg",
-                    colorFilter: const ColorFilter.mode(
-                      white,
-                      BlendMode.srcIn,
-                    ),
+                    colorFilter: const ColorFilter.mode(white, BlendMode.srcIn),
                   ),
                 ),
               ],
             ),
             verticalSpaceMedium(),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+            Wrap(
+              alignment: WrapAlignment.center,
+              crossAxisAlignment: WrapCrossAlignment.center,
+              spacing: 16,
+              runSpacing: 12,
               children: [
                 SvgPicture.asset(
                   "assets/icons/call.svg",
-                  colorFilter: const ColorFilter.mode(
-                    white,
-                    BlendMode.srcIn,
-                  ),
+                  colorFilter: const ColorFilter.mode(white, BlendMode.srcIn),
                 ),
-                horizontalSpaceMedium(),
                 Text(
-                  "+(234) 702 5214 514",
+                  "+234-7025214514",
                   style: TextStyles.style24extrabold,
+                  textAlign: TextAlign.center,
                 ),
-                horizontalSpaceMedium(),
                 InkWell(
                   onTap: () {
                     Clipboard.setData(
-                      const ClipboardData(
-                        text: "+(234) 702 5214 514",
-                      ),
+                      const ClipboardData(text: "+234-7025214514"),
                     );
                   },
                   child: SvgPicture.asset(
                     "assets/icons/copy.svg",
-                    colorFilter: const ColorFilter.mode(
-                      white,
-                      BlendMode.srcIn,
-                    ),
+                    colorFilter: const ColorFilter.mode(white, BlendMode.srcIn),
                   ),
                 ),
               ],
             ),
             verticalSpace(0.1),
             Text(
-              "© 2025 All Rights Reserved by Oladapo Olatubosun",
+              "© 2026 All Rights Reserved by Oladapo D. Olatubosun",
               style: TextStyles.style16regular,
               textAlign: TextAlign.center,
             ),

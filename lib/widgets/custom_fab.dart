@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:porfolio/constants/colors.dart';
+import 'package:porfolio/design_system/app_shadows.dart';
 
 class ScrollPositionIndicatorFAB extends StatefulWidget {
   final ScrollController scrollController;
@@ -58,15 +59,22 @@ class _ScrollPositionIndicatorFABState
               value: progress, // Progress value
               strokeWidth: 4,
               color: studio, // Progress indicator color
-              backgroundColor: studio.withOpacity(0.2), // Track color
+              backgroundColor: studio.withValues(alpha: 0.2), // Track color
             ),
           ),
-          const CircleAvatar(
-            radius: 25,
-            backgroundColor: Colors.black, // FAB background color
-            child: Icon(
-              Icons.arrow_upward,
-              color: studio,
+          const DecoratedBox(
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              color: Colors.black,
+              boxShadow: AppShadows.md,
+            ),
+            child: CircleAvatar(
+              radius: 25,
+              backgroundColor: Colors.transparent,
+              child: Icon(
+                Icons.arrow_upward,
+                color: studio,
+              ),
             ),
           ),
         ],

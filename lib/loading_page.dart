@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:porfolio/constants/colors.dart';
@@ -13,6 +15,7 @@ class LoadingPage extends StatefulWidget {
 
 class _LoadingPageState extends State<LoadingPage> {
   bool _isLoading = true;
+  Timer? _loadingTimer;
 
   @override
   void initState() {
@@ -20,13 +23,18 @@ class _LoadingPageState extends State<LoadingPage> {
     _simulateLoading();
   }
 
-  Future<void> _simulateLoading() async {
-    await Future.delayed(
-      const Duration(seconds: 3),
-    );
-    setState(() {
-      _isLoading = false;
+  void _simulateLoading() {
+    _loadingTimer?.cancel();
+    _loadingTimer = Timer(const Duration(seconds: 3), () {
+      if (!mounted) return;
+      setState(() => _isLoading = false);
     });
+  }
+
+  @override
+  void dispose() {
+    _loadingTimer?.cancel();
+    super.dispose();
   }
 
   @override
@@ -41,6 +49,13 @@ class _LoadingPageState extends State<LoadingPage> {
               Lottie.asset(
                 'assets/json/loading.json',
                 width: width() * 0.5,
+                errorBuilder: (context, error, stackTrace) {
+                  return const SizedBox(
+                    width: 48,
+                    height: 48,
+                    child: CircularProgressIndicator(),
+                  );
+                },
               ),
             ],
           ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:porfolio/constants/colors.dart';
+import 'package:porfolio/design_system/app_shadows.dart';
 
 class DrawerImage extends StatelessWidget {
   final double height, width;
@@ -12,7 +13,7 @@ class DrawerImage extends StatelessWidget {
       height: height,
       width: width,
       padding: const EdgeInsets.all(4),
-      decoration:const BoxDecoration(
+      decoration: const BoxDecoration(
         shape: BoxShape.circle,
         gradient: LinearGradient(
           colors: [
@@ -24,9 +25,12 @@ class DrawerImage extends StatelessWidget {
       child: ClipOval(
         child: Transform.rotate(
           angle: 0.1,
-          child: Image.asset(
-            'assets/images/profile_new.jpg',
-            fit: BoxFit.cover,
+          child: DecoratedBox(
+            decoration: const BoxDecoration(boxShadow: AppShadows.sm),
+            child: Image.asset(
+              'assets/images/profile_new.jpg',
+              fit: BoxFit.cover,
+            ),
           ),
         ),
       ),

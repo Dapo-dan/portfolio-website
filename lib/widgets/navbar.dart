@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:porfolio/constants/const.dart';
+import 'package:porfolio/constants/colors.dart';
 import 'package:porfolio/constants/styles.dart';
+import 'package:porfolio/responsive/app_breakpoints.dart';
 
 class ResponsiveNavBar extends StatelessWidget {
   final List<String> menuItems = [
@@ -18,7 +20,7 @@ class ResponsiveNavBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(
       builder: (context, constraints) {
-        if (constraints.maxWidth > 950) {
+        if (constraints.maxWidth >= AppBreakpoints.desktopMin) {
           return DesktopNavBar(
               menuItems: menuItems, onItemSelected: onItemSelected);
         } else {
@@ -115,7 +117,7 @@ class MobileDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       child: Container(
-        color: const Color.fromARGB(255, 39, 21, 74),
+        color: revolver,
         child: ListView(
           padding: EdgeInsets.zero,
           children: [

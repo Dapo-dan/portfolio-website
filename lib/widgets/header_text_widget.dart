@@ -43,13 +43,13 @@ class HeaderTextWidget extends StatelessWidget {
           ),
           verticalSpaceMedium(),
           Text(
-            "Oladapo",
+            "Oladapo D.",
             style: TextStyles.style20regular.copyWith(
               fontSize: 30,
             ),
           ),
           Text(
-            "Olatubosun",
+            "OLATUBOSUN",
             style: TextStyles.style20extrabold.copyWith(
               fontSize: 40,
             ),
@@ -57,13 +57,13 @@ class HeaderTextWidget extends StatelessWidget {
           GradientTextWidget(
             size: size,
             alignment: TextAlign.center,
-            text1: "Mobile Engineer",
+            text1: "Mobile (Flutter) Engineer",
             // text1: "Flutter Developer",
           ),
           SizedBox(
             width: width() > 950 ? width() * 0.37 : width() * 0.85,
             child: Text(
-              "I specialize in building beautiful and functional mobile applications using Flutter, creating seamless user experiences for millions of users.",
+              "Building secure, scalable mobile apps across fintech, healthtech, edtech, mobility, and AI-powered products.",
               style: TextStyles.style16regular,
               textAlign: width() < 950 ? TextAlign.center : TextAlign.left,
             ),
